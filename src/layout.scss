@@ -20,10 +20,8 @@
 }
 
 .container--header {
-  align-items: stretch;
   margin: 150px 0 70px;
 }
-
 
 .container--footer {
   margin-top: 80px;
@@ -57,11 +55,13 @@
   gap: 30px;
 }
 
-.white-card {
+.box--white{
   background: #FFFFFF;
   box-shadow: 0 4px 10px rgba(187, 225, 250, 0.25);
   border-radius: 4px;
   padding: 20px;
+  margin: 5px;
+  align-items: stretch;
 }
 
 .line-box {
@@ -88,6 +88,7 @@
 }
 
 .img--works {
+  max-width: 100%;
   border-radius: 6px;
 }
 
