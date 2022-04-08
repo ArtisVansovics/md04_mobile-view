@@ -47,6 +47,15 @@
 
 .img {
   width: 100%;
+  max-width: 245px;
+}
+
+.img--round {
+  border-radius: 50%;
+}
+
+.img--works {
+  border-radius: 6px;
 }
 
 .pill {
