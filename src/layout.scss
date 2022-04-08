@@ -1,0 +1,30 @@
+.wrapper {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  width: 100%;
+  padding: 30px 100px;
+}
+
+.container {
+  width: 100%;
+}
+
+.box {
+  display: flex;
+}
+
+.line-box {
+  position: relative;
+}
+
+.line-box__line {
+  border-left: 1px solid #000000;
+  height: 21px;
+  position:absolute;
+  left: 50%;
+}
+
+.img {
+  width: 100%;
+}
