@@ -3,11 +3,31 @@
   flex-flow: column;
   align-items: center;
   width: 100%;
-  padding: 30px 100px;
+  padding: 30px 12%;
 }
 
 .container {
   width: 100%;
+}
+
+.container--header {
+  margin: 150px 0 70px;
+}
+
+.container--footer {
+  margin-top: 80px;
+}
+
+.nav {
+  display: flex;
+}
+
+.gap--large {
+  gap: 33px;
+}
+
+.gap--larger {
+  gap: 45px;
 }
 
 .box {
@@ -28,3 +48,15 @@
 .img {
   width: 100%;
 }
+
+.pill {
+  background: #142850;
+  border-radius: 16px;
+  padding: 0 10px;
+  width: 62px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
